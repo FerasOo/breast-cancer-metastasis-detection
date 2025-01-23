@@ -1,0 +1,12 @@
+name: ain2001_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - pandas
+  - numpy
+  - scikit-learn
+  - pillow
