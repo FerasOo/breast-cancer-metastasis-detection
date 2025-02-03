@@ -1,6 +1,6 @@
-# Breast Cancer Metastasis Detection and Ratio Prediction using Deep Learning
+# 🔬 Breast Cancer Metastasis Detection and Ratio Prediction using Deep Learning
 
-## Overview
+## 📋 Overview
 
 This repository contains the implementation for Assignment 3 of the AIN2001 course, which consists of two parts, each modeled after a Kaggle competition:
 
@@ -11,7 +11,36 @@ Both parts utilize the same dataset and aim to solve different machine learning 
 
 ---
 
-## Kaggle Competitions
+
+## 📁 Project Structure
+
+```
+ain2001-assignment3/
+├── src/
+│   ├── classification.py
+│   └── regression.py
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   ├── sample_submission.csv
+│   └── images/
+├── predictions/
+│   ├── part1/
+│   └── part2/
+├── saved_models/
+│   ├── part1/
+│   └── part2/
+├── stats/
+│   ├── part1/
+│   └── part2/
+├── environment.yml
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🏆 Kaggle Competitions
 
 - **Part 1: Classification**
   - **Competition URL:** [Part 1: AIN2001 Fall22 A3P1](https://www.kaggle.com/competitions/bau-ain2001-fall22-a3p1)
@@ -25,7 +54,7 @@ Both parts utilize the same dataset and aim to solve different machine learning 
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 The dataset is organized into the following directories:
 
@@ -37,9 +66,9 @@ The dataset is organized into the following directories:
 
 ---
 
-## Assignment Details
+## 📝 Assignment Details
 
-### Part 1: Classification Task
+### 🔍 Part 1: Classification Task
 
 **Aim:**  
 Design deep learning models to detect breast cancer metastases in underarm lymph nodes.
@@ -74,7 +103,7 @@ Given an image, predict whether it is "normal" or "cancer".
 **Results:**  
 Achieved an AUROC score of **0.87625**, ranking **5th out of 17** participants.
 
-### Part 2: Regression Task
+### 📈 Part 2: Regression Task
 
 **Aim:**  
 Design deep learning models to predict the breast cancer metastases ratio in digital histopathology images of lymph node sections.
@@ -110,7 +139,7 @@ Achieved an MAE score of **0.21155**, ranking **6th out of 15** participants.
 
 ---
 
-## Installation
+## 🛠️ Installation
 
 1. **Download the Dataset:**
 
@@ -143,9 +172,9 @@ Achieved an MAE score of **0.21155**, ranking **6th out of 15** participants.
 
 ---
 
-## Usage
+## 🚀 Usage
 
-### Classification Task
+### 🎯 Classification Task
 
 1. **Run the Classification Script:**
 
@@ -159,7 +188,7 @@ Achieved an MAE score of **0.21155**, ranking **6th out of 15** participants.
    - Models are saved in `saved_models/part1/`.
    - Training statistics are recorded in `stats/part1/`.
 
-### Regression Task
+### �� Regression Task
 
 
 1. **Run the Regression Script:**
@@ -176,36 +205,7 @@ Achieved an MAE score of **0.21155**, ranking **6th out of 15** participants.
 
 ---
 
-## Project Structure
 
-```
-ain2001-assignment3/
-├── src/
-│   ├── classification.py
-│   └── regression.py
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   ├── sample_submission.csv
-│   └── images/
-├── predictions/
-│   ├── part1/
-│   └── part2/
-├── saved_models/
-│   ├── part1/
-│   └── part2/
-├── stats/
-│   ├── part1/
-│   └── part2/
-├── environment.yml
-├── README.md
-└── LICENSE
-```
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+## 📝 Note
+This project is part of the AIN2001 (Principles of Artificial Intelligence) course assignment. For detailed methodology and findings, please refer to the project report.
 
