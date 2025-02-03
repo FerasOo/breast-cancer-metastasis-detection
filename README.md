@@ -188,7 +188,7 @@ Achieved an MAE score of **0.21155**, ranking **6th out of 15** participants.
    - Models are saved in `saved_models/part1/`.
    - Training statistics are recorded in `stats/part1/`.
 
-### �� Regression Task
+### 📊 Regression Task
 
 
 1. **Run the Regression Script:**
